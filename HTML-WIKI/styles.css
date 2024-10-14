@@ -1,0 +1,48 @@
+div.Line {
+    border-bottom: 1px solid;
+}
+
+div.Edit{
+    display: inline;
+}
+div.Edit::before {
+    content: "[править] [править код]";
+}
+
+div.ContentBlock {
+    display: inline-block;
+    border: solid thin;
+    background-color: aliceblue;
+}
+
+div.Section {
+    margin-top: 20px;
+}
+
+h1.Content {
+    display: inline;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+ul.ContentList {
+    list-style-type: none;
+}
+
+li.ContentListElement {
+    margin: 5px;
+}
+
+h2.Style {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+a.Edit::before {
+    content: "[править]";
+}
+a.EditCode::before {
+    content: "[править код]";
+}
