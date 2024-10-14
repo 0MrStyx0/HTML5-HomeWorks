@@ -46,3 +46,8 @@ a.Edit::before {
 a.EditCode::before {
     content: "[править код]";
 }
+
+span.Border {
+    background-color: aliceblue;
+    border: solid thin;
+}
