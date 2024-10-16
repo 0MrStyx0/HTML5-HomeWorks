@@ -1,53 +1,25 @@
-div.Line {
-    border-bottom: 1px solid;
-}
+@import url(div-styles.css);
+@import url(h1-h6-styles.css);
+@import url(list-styles.css);
 
-div.Edit{
-    display: inline;
-}
-div.Edit::before {
-    content: "[править] [править код]";
-}
-
-div.ContentBlock {
-    display: inline-block;
-    border: solid thin;
-    background-color: aliceblue;
-}
-
-div.Section {
-    margin-top: 20px;
-}
-
-h1.Content {
-    display: inline;
-    font-size: medium;
-    font-weight: bold;
-    margin-left: 70px;
-}
-
-ul.ContentList {
-    list-style-type: none;
-}
-
-li.ContentListElement {
-    margin: 5px;
-}
-
-h2.Style {
-    display: inline;
-    margin-right: 10px;
-    font-weight: normal;
-}
-
-a.Edit::before {
+a.edit::before {
     content: "[править]";
 }
-a.EditCode::before {
+a.edit-code::before {
     content: "[править код]";
 }
 
-span.Border {
+span.border {
     background-color: aliceblue;
     border: solid thin;
+}
+
+img.image1 {
+    height: 100px;
+    width: 150px;
+}
+
+pre.code-style {
+    border: solid thin;
+    background-color: aliceblue;
 }

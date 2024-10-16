@@ -1,0 +1,7 @@
+ul.content-list {
+    list-style-type: none;
+}
+
+li.content-list-element {
+    margin: 5px;
+}

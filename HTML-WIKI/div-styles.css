@@ -1,0 +1,13 @@
+div.line {
+    border-bottom: 1px solid;
+}
+
+div.content-block {
+    display: inline-block;
+    border: solid thin;
+    background-color: aliceblue;
+}
+
+div.section {
+    margin-top: 20px;
+}

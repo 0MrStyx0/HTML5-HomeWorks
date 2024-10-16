@@ -1,0 +1,12 @@
+h1.content {
+    display: inline;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+h2.style {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+}
