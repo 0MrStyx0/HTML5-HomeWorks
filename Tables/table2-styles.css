@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(49, 48, 48);
+}
+
+table {
+    border: solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid white;
+}
+
+th {
+    height: 50px;
+    background-color: lightgrey;
+}
+
+td {
+    width: 200px;
+    height: 150px;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.empty {
+    height: 10px;
+    background-color: white;
+    border: white;
+}
+
+td.public-swim {
+    background-color: deepskyblue;
+}
+
+td.lane-swim {
+    background-color: rgba(0, 255, 0, 0.582);
+}
+
+td.aquacise,
+td.aqua-jog,
+td.parent-baby {
+    background-color: rgb(204, 50, 140);
+}
+
+td.education-swimming {
+    background-color: rgba(0, 255, 255, 0.652);
+}
+
+td.oldham-kids {
+    background-color: rgba(255, 166, 0, 0.738);
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
